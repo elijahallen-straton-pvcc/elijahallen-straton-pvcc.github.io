@@ -54,7 +54,7 @@ def calc():
         totalcost=numcredits*OUT_RATE 
         capitalamt=numcredits*RATE_CAPITAL_FEE
         tuitionamt=numcredits*RATE_TUITION_OUT
-    balance=totalcost-scholarshipamt #works
+    balance=totalcost-scholarshipamt 
     
 def show_results():
     moneyf = '8.2f'
